@@ -12,11 +12,11 @@ jobs:
       fail-fast: true
       matrix:
         include:
-#           - username: ZJU_USERNAME3
-#             password: ZJU_PASSWORD3
-#             dingtalk_token: DINGTALK_TOKEN3
-#             pushplus_token: PUSHPLUS_TOKEN3
-#             serverchan_key: SERVERCHAN_KEY3
+          - username: ZJU_USERNAME3
+            password: ZJU_PASSWORD3
+            dingtalk_token: DINGTALK_TOKEN3
+            pushplus_token: PUSHPLUS_TOKEN3
+            serverchan_key: SERVERCHAN_KEY3
           - username: ZJU_USERNAME
             password: ZJU_PASSWORD
             dingtalk_token: DINGTALK_TOKEN
@@ -27,6 +27,11 @@ jobs:
             dingtalk_token: DINGTALK_TOKEN
             pushplus_token: PUSHPLUS_TOKEN2
             serverchan_key: SERVERCHAN_KEY2
+          - username: ZJU_USERNAME4
+            password: ZJU_PASSWORD4
+            dingtalk_token: DINGTALK_TOKEN
+            pushplus_token: PUSHPLUS_TOKEN4
+            serverchan_key: SERVERCHAN_KEY4
     steps:
       - name: Working
         uses: Exgc/zju-ncov-hitcarder@master
